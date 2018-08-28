@@ -427,7 +427,7 @@ static NSDictionary *defaultFaceDetectorOptions = nil;
         [self setupMovieFileCapture];
     }
 
-    if (self.movieFileOutput == nil || self.movieFileOutput.isRecording || _videoRecordedResolve != nil || _videoRecordedReject != nil) {
+    if (self.movieFileOutput == nil || self.movieFileOutput.isRecording ) {
       return;
     }
 
